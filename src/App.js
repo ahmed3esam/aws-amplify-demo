@@ -8,6 +8,7 @@ import { createNote, deleteNote } from './graphql/mutations';
 
 import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import awsExports from "./aws-exports";
+import config from './aws-exports';
 
 Amplify.configure(awsExports);
 
